@@ -1,4 +1,4 @@
-import warning from "warning";
+import * as warning from "warning";
 import { createPath } from "./PathUtils";
 import { createLocation } from "./LocationUtils";
 import createTransitionManager from "./createTransitionManager";
