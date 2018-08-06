@@ -1,5 +1,5 @@
-import warning from "warning";
-import invariant from "invariant";
+import * as warning from "warning";
+import * as invariant from "invariant";
 import { createLocation, locationsAreEqual } from "./LocationUtils";
 import {
   addLeadingSlash,
